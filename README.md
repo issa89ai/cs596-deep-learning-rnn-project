@@ -36,3 +36,19 @@ cs596-deep-learning-rnn-project/
 2. Make sure PyTorch is installed:
 ```bash
 pip install torch torchvision torchaudio
+
+
+📝 Notes
+
+This project was developed as part of an academic course.
+
+The code is intended for educational and research purposes only.
+
+No external datasets are required beyond those provided with the assignment.
+
+👤 Author
+
+Ahmad Issa
+Bishop’s University
+Department of Computer Science
+
