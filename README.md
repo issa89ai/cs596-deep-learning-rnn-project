@@ -1,54 +1,101 @@
-# CS596 – Special Topics on Deep Learning  
+# CS596 – Special Topics on Deep Learning: RNN Project
 
-## Final Project: Exploring Recurrent Neural Networks (RNNs)
+## 📘 Course Information
 
-This repository contains the final project for **CS 596 – Special Topics on Deep Learning** at Bishop’s University.
+- **Course:** CS596 – Research Topics in Computer Science (Special Topics on Deep Learning)  
+- **Term:** Winter 2024  
+- **Institution:** Bishop's University  
+- **Project Type:** Final Project  
+- **Topic:** Recurrent Neural Networks for Financial Time-Series Forecasting  
+
+---
 
 ## 📌 Project Overview
-The goal of this project is to explore **Recurrent Neural Networks (RNNs)** using **PyTorch**, with a focus on sequence modeling tasks applied to financial time-series data.  
-The project includes dataset preprocessing, model implementation, training, evaluation, and analysis.
+
+This project explores **Recurrent Neural Networks (RNNs)** using **PyTorch**, with a focus on sequence modeling applied to financial time-series data (Apple stock prices from Yahoo Finance).
+
+The project covers dataset preprocessing, model implementation, training, evaluation, and comparative analysis across RNN architectures.
+
+---
 
 ## 🧠 Topics Covered
+
 - Recurrent Neural Networks (RNN)
-- LSTM / GRU architectures
-- Sequence modeling
-- Time-series forecasting
-- PyTorch implementation
-- Model training and evaluation
+- LSTM and GRU architectures
+- Sequence modeling and time-series forecasting
+- PyTorch model implementation and training
+- Model evaluation and performance comparison
 
-## 🛠️ Technologies & Data Used
-- Python  
-- PyTorch  
-- Jupyter Notebook  
-- NumPy, Matplotlib  
-- **Yahoo Finance dataset** (financial time-series data)
+---
 
-## 📂 Project Structure
+## 📊 Dataset
+
+- **Source:** Yahoo Finance
+- **Stock:** Apple Inc. (AAPL)
+- **Files:**
+  - `yahoo finance dataset/AAPL_train_data.csv` — training data (historical prices)
+  - `yahoo finance dataset/AAPL_test_data.csv` — test data
+- **Features:** Date, Open, High, Low, Close, Adj Close, Volume
+
+---
+
+## 🛠️ Technologies Used
+
+- Python 3
+- PyTorch
+- NumPy, Matplotlib
+- Jupyter Notebook / Google Colab
+
+---
+
+## 📂 Repository Structure
+
+```
 cs596-deep-learning-rnn-project/
-├── notebooks/ # Jupyter notebooks (model implementation & experiments)
-├── report/ # Final project report (PDF)
-├── docs/ # Project documentation
-├── slides/ # Presentation slides
-├── yahoo finance dataset/ # Financial dataset used in experiments
-└── README.md # Project documentation
+├── notebooks/
+│   ├── CS596 Final Project.ipynb              # Main experiments notebook
+│   └── CS596 Final Project Group FP B.ipynb  # Group version
+├── yahoo finance dataset/
+│   ├── AAPL_train_data.csv
+│   └── AAPL_test_data.csv
+├── report/
+│   └── CS596 Final Project Group_FP B.pdf
+├── docs/
+│   └── CS596 Final Project Group_FP B.docx
+├── .gitignore
+└── README.md
+```
+
+---
+
 ## ▶️ How to Run
-1. Open the notebooks inside the `notebooks/` folder  
-2. Make sure PyTorch is installed:
-```bash
-pip install torch torchvision torchaudio
 
+1. Open the notebook in Jupyter or Google Colab:
+   ```bash
+   jupyter notebook "notebooks/CS596 Final Project.ipynb"
+   ```
 
-📝 Notes
+2. Install required libraries:
+   ```bash
+   pip install torch torchvision numpy matplotlib pandas
+   ```
 
-This project was developed as part of an academic course.
+---
 
+## 📝 Notes
+
+This project was developed as part of an academic course.  
 The code is intended for educational and research purposes only.
 
-No external datasets are required beyond those provided with the assignment.
+## 👤 Author
 
-👤 Author
-
-Ahmad Issa
-Bishop’s University
+**Ahmad Issa**  
+Bishop's University  
 Department of Computer Science
 
+---
+
+**Ahmad Issa**  
+Master's Student in Computer Science  
+Bishop's University  
+Student ID: 002230777
